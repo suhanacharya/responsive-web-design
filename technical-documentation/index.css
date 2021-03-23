@@ -1,0 +1,93 @@
+* {
+    font-size: 22px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* flex-wrap:? */
+    margin: 1% 5% 5% 5%;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 0 40px 0 0;
+    font-size: 24px;
+    min-width: 100px;
+    height: 100%;
+    /* background-color: white; */
+    /* width: 3 */
+}
+
+#navbar ul>li {
+    list-style-type: none;
+    padding: 5px 0 5px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+#main-doc {
+    /* min-width: 1000px */
+    /* margin-left: 500px; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 20px;
+}
+
+
+/* #line {
+    margin-left: 25%;
+    width: 2px;
+    height: 100%;
+    background-color: black;
+    float: left;
+} */
+
+.vline {
+    /* position: fixed; */
+    margin-left: 450px;
+    width: 2px;
+    background-color: black;
+}
+
+.hline {
+    margin-top: 20px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+code {
+    font-family: monospace;
+    background-color: aquamarine;
+    /* padding: 20px; */
+    /* margin: 20px; */
+}
+
+@media (max-width:800px) {
+    body {
+        flex-direction: column;
+    }
+    nav {
+        position: relative;
+        /* visibility: hidden; */
+    }
+}
