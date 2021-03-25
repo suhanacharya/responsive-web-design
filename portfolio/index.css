@@ -47,10 +47,11 @@ a {
     justify-content: center;
     text-align: center;
     animation: bgColor 30s infinite linear;
+    height: 100vh;
 }
 
 section {
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
 }
 
@@ -80,19 +81,19 @@ section:nth-child(3) {
 } */
 
 h1 {
-    font-size: 8rem;
+    font-size: 120px;
 }
 
 h2 {
-    font-size: 6rem;
+    font-size: 90px;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 48px;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 35px;
 }
 
 
@@ -104,8 +105,8 @@ p {
     /* font-size: 48px */
     /* white-space: nowrap; */
     padding: 20px;
-    /* max-width: 300px; */
-    width: 500px;
+    max-width: 100vw;
+    /* width: 500px; */
     transition: all .2s ease-in-out;
 }
 
@@ -233,5 +234,17 @@ p {
     }
     #project-list {
         grid-template-columns: auto;
+    }
+    h1 {
+        font-size: 64px;
+    }
+    h2 {
+        font-size: 44px;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 20px;
     }
 }
